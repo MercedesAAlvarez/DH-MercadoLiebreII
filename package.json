@@ -1,0 +1,23 @@
+{
+  "name": "mercadoliebre-estilos",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MercedesAAlvarez/DH-MercadoLiebreII.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MercedesAAlvarez/DH-MercadoLiebreII/issues"
+  },
+  "homepage": "https://github.com/MercedesAAlvarez/DH-MercadoLiebreII#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}

@@ -1,0 +1,17 @@
+.home main .banner{}/* corregir posicion */
+.home main section article{
+    margin:20px 0;
+    position: relative;;
+}
+.home main section .producto{
+    width: 100%;
+}
+.home main p.precio{
+font-size: 18px;
+}
+. home main p.descuento{
+    font-size: 16px;
+}
+. home main p.descripcion{
+    font-size: 16px;
+}

@@ -1,0 +1,14 @@
+
+.home footer p{
+    font-family: var(--FuentePrincipal);
+    font-size: 12px;
+    margin-top: 0;
+ 
+}
+
+.home footer #icons{
+    color: var(--colorCeleste);
+    font-size: 2em;
+    margin-bottom: 10px;
+
+}
