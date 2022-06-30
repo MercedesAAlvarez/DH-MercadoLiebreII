@@ -1,4 +1,6 @@
-.home main .banner{}/* corregir posicion */
+.home main .banner{
+    display: none;
+}/* corregir posicion */
 .home main section article{
     margin:20px 0;
     position: relative;;
@@ -8,10 +10,13 @@
 }
 .home main p.precio{
 font-size: 18px;
+font-family: var(--FuentePrincipal);
 }
-. home main p.descuento{
+.home main p.descuento{
     font-size: 16px;
+    font-family: var(--FuentePrincipal);
 }
-. home main p.descripcion{
+.home main p.descripcion{
     font-size: 16px;
+    font-family: var(--FuentePrincipal);
 }
