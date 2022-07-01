@@ -14,7 +14,7 @@
    
 }
 .home header {
-    text-align: left;
+    
     background-color: var(--colorAmarillo);
     background-size: 70%;
     background-position: left 0;
@@ -36,6 +36,7 @@
 }
 
 .home header button.menu {
+    text-align: center;
     background-color: var(--colorCeleste);
     width: 50px;
     height: 50px;
