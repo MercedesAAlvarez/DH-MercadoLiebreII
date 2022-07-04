@@ -3,6 +3,9 @@
     margin: 0;
     padding: 0;
 }/* no siempre se usa el border-box */
+body{
+    background-color: var(--colorGrisClaro);
+}
 ul{
     margin:16px 0 16px
 }
@@ -20,9 +23,6 @@ h3{
     font-size: 24px;
     font-family: var(--FuentePrincipal);
 
-}
-footer{
-    text-align: center;
 }
 h4{
     font-family: var(--FuentePrincipal);

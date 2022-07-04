@@ -1,22 +1,25 @@
-.home main .banner{
+main{
+   
+}
+main .banner{
     display: none;
 }/* corregir posicion */
-.home main section article{
+main section article{
     margin:20px 0;
     position: relative;;
 }
-.home main section .producto{
+main section .producto{
     width: 100%;
 }
-.home main p.precio{
+main p.precio{
 font-size: 18px;
 font-family: var(--FuentePrincipal);
 }
-.home main p.descuento{
+main p.descuento{
     font-size: 16px;
     font-family: var(--FuentePrincipal);
 }
-.home main p.descripcion{
+main p.descripcion{
     font-size: 16px;
     font-family: var(--FuentePrincipal);
 }
