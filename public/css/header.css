@@ -1,28 +1,29 @@
 /* correr logo mas a la izq(aunque me gusta mas como queda en el centro),alejar del margen la barra de busqueda,correr mas al margen los li,centrar menu hamburguesa */
-
-header .logo{
-    margin: 0px 35px 0;
-    text-align: left;
-    padding: 30px 0 15px;
+header {
+    
+    background-color: var(--colorAmarillo);
+    padding: 20px 0;
+  
+   
+}
+header .logo,header input{
+    margin: 0px 20px ;
+   
+  
 }
 
 header .logo img {
     width: 50%;
 }
-header {
-    
-    background-color: var(--colorAmarillo);
-    padding: 20px 0;
-    background-size: 70%;
-    background-position: left 0;
-   
-}
+
 header nav{
-    margin: 0 1px 0 20px;
+    margin-top: 20px;
+  
 }
 
-header ul p{
+header  p{
     margin: 24px 0 25px;
+    text-align: center;
 }
 header ul li {
     font-family: var(--FuentePrincipal);

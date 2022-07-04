@@ -3,6 +3,7 @@
 :root{
     --FuentePrincipal:'Roboto',sans-serif;
     --FuenteSecundaria:'Open Sans',sans-serif;
+    /* colores */
     --colorAmarillo: #EAC926;
     --colorAzul: #03264C;
     --colorCeleste: #1259c3;
