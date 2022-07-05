@@ -1,51 +1,45 @@
 /* correr logo mas a la izq(aunque me gusta mas como queda en el centro),alejar del margen la barra de busqueda,correr mas al margen los li,centrar menu hamburguesa */
-header {
-    
+header{
     background-color: var(--colorAmarillo);
     padding: 20px 0;
-  
-   
 }
-header .logo,header input{
+header .logo,header .searchBar{
     margin: 0px 20px ;
-   
-  
 }
-
-header .logo img {
+header .logo img{
     width: 50%;
 }
-
-header nav{
+header .searchBar{
     margin-top: 20px;
-  
-}
-
+} 
+header .searchBar i{
+    padding: 1px;
+    /* background-color:white; 
+    border: 1px solid var(--colorGrisOscuro);
+    border-radius: 4px; */
+} 
 header  p{
-    margin: 24px 0 25px;
+    margin: 24px 0;
     text-align: center;
 }
-header ul li {
+header ul{
+    margin: 0 0 20px;
     font-family: var(--FuentePrincipal);
     text-align: left;
     font-size: 12px;
-    
-
 }
-
-header button.menu {
+header .menu{
     text-align: center;
-    background-color: var(--colorCeleste);
-    width: 50px;
-    height: 50px;
-    font-size: 30px;
-    margin: 30px 186px 0;
-    margin-bottom: 30px;
-    border-radius: 17%;
-    border: 1px solid var(--colorCeleste);
-    color: white
 }
-header p {
+header .menu i{
+    background-color: var(--colorCeleste);
+    color: white;
+    padding: 10px;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+header p{
     text-align: center;
     font-size: 12px;
     font-family: var(--FuentePrincipal);
