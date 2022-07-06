@@ -14,13 +14,16 @@ header .searchBar{
 } 
 header .searchBar i{
     padding: 1px;
-    /* background-color:white; 
+    background-color:white; 
     border: 1px solid var(--colorGrisOscuro);
-    border-radius: 4px; */
+    border-radius: 4px; 
 } 
 header  p{
     margin: 24px 0;
     text-align: center;
+}
+header nav{
+    display: none;
 }
 header ul{
     margin: 0 0 20px;
@@ -30,6 +33,7 @@ header ul{
 }
 header .menu{
     text-align: center;
+    
 }
 header .menu i{
     background-color: var(--colorCeleste);
@@ -43,4 +47,24 @@ header p{
     text-align: center;
     font-size: 12px;
     font-family: var(--FuentePrincipal);
+}
+
+/* Tablet */
+@media (min-width:461px){
+    header nav{
+        display: block;
+    }
+    header .menu{
+        display: none;
+    }
+
+    main section article h4{
+        display:block;
+    }
+    
+}
+
+/* Desktop */
+@media (min-width:769px){
+
 }

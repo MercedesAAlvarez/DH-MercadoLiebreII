@@ -8,6 +8,7 @@ footer p{
  
 } 
 footer ul{
+    margin-top: 10px;
     text-align: center;
     color: var(--colorGrisOscuro)
 }
@@ -21,3 +22,10 @@ footer #icons{
     margin-bottom: 10px;
 
 }
+footer ul h4{
+    font-family: var(--FuentePrincipal);
+    margin-top: 4px;
+    margin-bottom: 1px;
+}
+
+
