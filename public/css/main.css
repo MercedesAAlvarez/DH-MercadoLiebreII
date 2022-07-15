@@ -12,10 +12,19 @@ main section article .contenedor{
    border-top: 1px solid var(--colorGrisClaro);
    padding: 15px;
    
-
-   
-
 }
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+}
+.camion{
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+
 main section article .camion i{
     
     font-size: 12px;
@@ -23,6 +32,8 @@ main section article .camion i{
     border-radius:50%;
     border: 1px solid var(--colorVerde);
     color: var(--colorVerde);
+    
+
 
    
 }
@@ -62,6 +73,7 @@ main section article h4{
     color: var(--colorGrisOscuro);
 
 }
+
 
 /* Tablet */
 @media (min-width:461px){
