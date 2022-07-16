@@ -5,39 +5,50 @@ header{
    
 }
 header .logo,header .searchBar{
-    margin: 0px 20px ;
+    margin: 10px 10px ; 
 }
 header .top{
     display: flex;
-    /*  flex-wrap: wrap;  */
+   /*   flex-wrap: wrap;  */
     flex-direction: row;
     width: 425px;
 }
 
 
 header .logo{
-     width: 50%; 
+    display:flex;
+    width: 50%; 
 
 } 
 header .logo img{
-   /*  padding: 10px; */
-    width: 50%; 
+    flex-grow: 1;
+   padding: 1px; 
+   width: 150px;
+   
+  
     
 }
 header .searchBar{
-    /* display: flex;
+    display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-items: flex-start; */
-    margin-top: 20px;
+    /* flex-wrap: wrap; */
+    justify-content:space-between;
+    align-self: flex-start; 
+    margin-top: 10px; 
     width: 50%;
+   
+
 } 
 header .searchBar i{
     padding: 1px;
     background-color:white; 
     border: 1px solid var(--colorGrisOscuro);
     border-radius: 4px; 
+
+  
+
 } 
+
 
 header  p{
     margin: 24px 0;
@@ -72,11 +83,20 @@ header p{
 
 /* Tablet */
 @media (min-width:461px){
+   
     header nav{
         display: block;
     }
     header .menu{
         display: none;
+    }
+    header .top{
+        width: 461px;
+        margin: 0;
+        /* text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row; */
     }
     header .nav{
         display: flex;
@@ -105,6 +125,7 @@ header p{
     main section article h4{
         display:block;
     }
+  
     
 }
 
