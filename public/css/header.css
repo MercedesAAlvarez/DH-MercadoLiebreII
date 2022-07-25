@@ -1,34 +1,23 @@
 header{
     background-color: var(--colorAmarillo);
     padding: 20px 0;
-    
-   
 }
 header .logo,header .searchBar{
     margin: 10px 10px ; 
 }
 header .top{
     display: flex;
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
     justify-content: space-between;
     flex-direction: row;
-
-    
 } 
-
-
 header .logo{
     display:flex;
     width: 50%; 
-
 } 
 header .logo img{
     flex-grow: 1;
    padding: 1px; 
    width: 150px;
-   
-  
-    
 }
 header .searchBar{
     display: flex;
@@ -39,19 +28,13 @@ header .searchBar{
     margin-top: 10px; 
     width: 50%;
    
-
 } 
 header .searchBar i{
     padding: 1px;
     background-color:white; 
     border: 1px solid var(--colorGrisOscuro);
     border-radius: 4px; 
-
-  
-
 } 
-
-
 header  p{
     margin: 24px 0;
     text-align: center;
