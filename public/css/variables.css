@@ -1,6 +1,7 @@
-@import url('<enlace href="https: //fonts.googleapis.com/css2? family= Open+Sans:wght@300;400;600 &familia= Roboto:peso@300;400;500 & display=swap" rel="stylesheet">');
+@import url('https: //fonts.googleapis.com/css2? family= Open+Sans:wght@300;400;600 &familia= Roboto:peso@300;400;500 & display=swap');
 
 :root{
+    /* Fuentes */
     --FuentePrincipal:'Roboto',sans-serif;
     --FuenteSecundaria:'Open Sans',sans-serif;
     /* colores */

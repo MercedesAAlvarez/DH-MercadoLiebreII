@@ -1,0 +1,16 @@
+.register main{
+    width: 50%;
+    margin: 0 auto
+}
+.register main h2{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.register .container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: flex-start;
+    justify-content:flex-start;
+    margin-bottom: 20px;
+}
