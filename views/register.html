@@ -51,7 +51,7 @@
         <form action="/registro" method="get">
            <div class="container">
             <label>Nombre</label>
-               <input type="text" name="nombre"  id="nombre" placeholder="Ingresá tuombre" required>
+               <input type="text" name="nombre"  id="nombre" placeholder="Ingresá tu nombre" required>
                <small>*Por favor ingresa tu nombre</small>
            </div>
            <div class="container">
@@ -93,7 +93,8 @@
              <option value="vendedor">Vender</option>
             </select>
             <h4>Intereses</h4><!-- categorias de interes mas de una -->
-            <div>
+            <div class="container2">
+               <div class="container2">
                 <label for="Elec">Electro</label>
                 <input type="checkbox" name="intereses" value="Electro">
                 <label for="Mo">Moda</label>
@@ -104,6 +105,7 @@
                 <input type="checkbox" name="intereses" value="Juguetería">
                 <label for="VS">Vida sana</label>
                 <input type="checkbox" name="intereses" value="Vida sana">
+               </div>
             </div>
             <button type="submit"><a href="/">Enviar</a></button>
             <button type="reset">Cancelar</button>

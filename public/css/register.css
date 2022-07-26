@@ -1,8 +1,10 @@
 .register main{
-    width: 50%;
-    margin: 0 auto
+    width: 400px;
+    margin: 0 auto;
+    
 }
 .register main h2{
+    text-align: center;
     margin-top: 10px;
     margin-bottom: 20px;
 }
@@ -12,5 +14,24 @@
     flex-direction: column;
     align-content: flex-start;
     justify-content:flex-start;
+    margin-bottom: 20px;
+}
+.register  .container label{
+    margin-bottom: 5px;
+}
+.register  .container input{
+    padding: 4px;/* permite agrandar o achicar a gusto la barra para colocar el nombre */
+    border-radius: 4px;
+    margin-top: 4px;
+}
+.register .container small{
+    color: red;
+    margin-top: 3px;
+}
+.register   h4{
+    margin-top: 4px;
+}
+.register .container2{
+    margin-top: 3px;
     margin-bottom: 20px;
 }
